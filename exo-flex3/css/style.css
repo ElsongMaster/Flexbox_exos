@@ -1,0 +1,54 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  /*height: 100vh; entraine un scroll  */
+}
+
+body * {
+  border-radius: 5px;
+}
+header,
+footer {
+  height: 70px;
+  background-color: blue;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+.container > * {
+  display: flex;
+  height: 430px;
+  margin: 5px;
+}
+article {
+  background-color: rgb(100, 149, 237);
+}
+nav,
+aside {
+  width: 10px;
+  background-color: rgb(255, 127, 80);
+}
+
+nav {
+  order: 1;
+  flex-grow: 1;
+}
+
+article {
+  flex-grow: 3;
+  order: 2;
+}
+
+aside {
+  flex-grow: 1;
+  order: 3;
+}
