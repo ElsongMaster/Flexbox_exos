@@ -1,11 +1,6 @@
-section {
-  height: 100vh;
-}
-
 .flex-container {
   display: flex;
   height: 100px;
-  margin-bottom: 10px;
 }
 
 .flex-item {
@@ -14,5 +9,5 @@ section {
   align-items: center;
   width: 100%;
   background-color: rgb(210, 105, 30);
-  margin-right: 10px;
+  margin: 5px;
 }
